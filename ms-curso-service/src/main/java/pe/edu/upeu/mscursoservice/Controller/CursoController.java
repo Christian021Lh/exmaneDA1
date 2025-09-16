@@ -24,7 +24,7 @@ public class CursoController {
     }
 
     @PostMapping
-    public Curso guardar(Curso curso) {
+    public Curso guardar(@RequestBody Curso curso) {
         return cursoService.guardar(curso);
     }
 
