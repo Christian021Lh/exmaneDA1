@@ -24,7 +24,7 @@ public class MatriculaController {
     }
 
     @PostMapping
-    public Matricula guardar( @RequestBody Matricula matricula) {
+    public Matricula guardar(@RequestBody Matricula matricula) {
         return matriculaService.guardar(matricula);
     }
 
